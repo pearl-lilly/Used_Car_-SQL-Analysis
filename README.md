@@ -21,8 +21,8 @@
 ### Compare Average Price by Transmission
 ## SQL Queries
 1 Most popular car brand
-select
-Brand,
+### select
+### Brand,
 count(*) as popular_car
 from car_price_dataset2
 group by Brand
