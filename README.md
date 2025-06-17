@@ -2,7 +2,7 @@
 
 This project analyzes a dataset of 10,000 used car listings to uncover patterns in pricing, brand popularity, fuel preferences, and transmission types. The goal is to support data-driven decisions in the automotive resale market by providing insights into buyer behavior and product positioning.
 
-### objctives
+### Objctives
 
 - Identify the most popular car brands.  
 - Analyze average car prices by brand.  
@@ -32,7 +32,7 @@ This project analyzes a dataset of 10,000 used car listings to uncover patterns 
 
 </details>
 
-### 🔍 Insight 1: Most Popular Brands
+### 🔍 Business Question: Most Popular Brands
 
 **📈 Finding:**  
 The top 5 most frequently listed car brands are **Ford (1,048)**, **Audi (1,038)**, **Volkswagen (1,020)**, **Honda (1,009)**, and **Chevrolet (1,003)**. Their consistent presence indicates strong resale value and consumer trust.
@@ -53,7 +53,7 @@ order by
         count(*) desc;
 ```
 
-### 💰 Insight 2: Average Price by Brand</summary>
+### 💰  Business Question : Average Price by Brand</summary>
 
 **📈 Finding:**  
 Highest average prices are from **Chevrolet ($9,015)**, **Mercedes ($8,980)**, and **Audi ($8,929)**. Ford is a high-volume seller with more affordable models.
@@ -73,7 +73,7 @@ order by
       average_price desc;
 ```
 
-### 📉 Insight 3: Depreciation Trends
+### 📉  Business Question: Depreciation Trends
 
 **📈 Finding:**  
 Car prices decrease steadily with age. 2023 models average ~$12,169, while 2000 models average ~$5,393. Depreciation is most steep in the first 5–7 years.
@@ -93,7 +93,7 @@ order by
      Year desc ;
 ```
 
-### 🛣️ Insight 4: Total Mileage Across Top Brands</summary>
+### 🛣️  Business Question: Total Mileage Across Top Brands</summary>
 
 **📈 Finding:**  
 **Ford**, **Audi**, and **Honda** report total mileages above 150 million km, showing strong long-term reliability and customer trust.
@@ -114,7 +114,7 @@ select
  limit 10;
 ```
 
-### ⚡ Insight 5: Fuel Type Distribution by Brand</summary>
+### ⚡  Business Question: Fuel Type Distribution by Brand</summary>
 
 **📈 Finding:**  
 Electric and hybrid models are common among **Audi**, **BMW**, **Ford**, and **Toyota** — showing a growing shift to sustainability.
@@ -135,7 +135,7 @@ select
     count_fuel_type desc;
 ```
 
-### 📊 Insight 6: Average Mileage by Brand</summary>
+### 📊  Business Question: Average Mileage by Brand</summary>
 
 **📈 Finding:**  
 **Ford** cars show the highest average mileage (~150,650 km), likely due to durable builds and fleet/commercial use.
@@ -153,7 +153,7 @@ select
  group by Brand;
 ```
 
-### 🔧 Insight 7: Transmission and Price</summary>
+### 🔧  Business Question: Transmission and Price</summary>
 
 **📈 Finding:**  
 **Automatic** cars have the highest average price (~$9,938), showing market preference over manual and semi-automatic types.
