@@ -177,7 +177,7 @@ select
 
 This analysis reveals key factors affecting used car value, demand, and preferences. The findings help dealerships and platforms improve inventory, pricing, and marketing.
 
-It also demonstrates practical use of SQL and Python for real-world data analysis, valuable for a data analytics portfolio.
+It also demonstrates practical use of SQL for real-world data analysis, valuable for a data analytics portfolio.
 
 ## ⚠️ Limitations
 
